@@ -4,6 +4,7 @@ model=cv2.CascadeClassifier('opencv-master/data/haarcascades/haarcascade_frontal
 photo1=cv2.imread('man1.png')
 face1=model.detectMultiScale(photo1)
 
+# face1 dimensions
 x1_m1=face1[0][0]
 y1_m1=face1[0][1]
 x2_m1=x1_m1+face1[0][2]
@@ -12,6 +13,7 @@ y2_m1=y1_m1+face1[0][3]
 photo2=cv2.imread('man2.jpg')
 face2=model.detectMultiScale(photo2)
 
+# face2 dimensions
 x1_m2=face2[0][0]
 y1_m2=face2[0][1]
 x2_m2=x1_m2+379
