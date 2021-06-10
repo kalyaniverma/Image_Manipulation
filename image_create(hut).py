@@ -116,7 +116,7 @@ ImageDraw.floodfill(img, (606,568),purple, thresh=50)
 # triangle
 ImageDraw.floodfill(img, (600,440),orange, thresh=50)
 
-# moon
+# Moon
 ImageDraw.floodfill(img, (1250,110),silver, thresh=50)
 
 # Displaying Image
